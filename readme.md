@@ -2,6 +2,7 @@
 
 ## Requisitos
 Python e virtualenv
+
 extrair arquivo base_de_dados
 
 #### Python
