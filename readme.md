@@ -2,9 +2,13 @@
 
 ## Requisitos
 Python e virtualenv
+extrair arquivo base_de_dados
 
 #### Python
 Instalar Python 3.8.3
+
+### docker compose
+docker-compose up
 
 #### Virtualenv
 caso não tenha virtualenv instalado no diretorio do python
