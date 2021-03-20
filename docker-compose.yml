@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  search_engine_server:
+    container_name: search_engine_server
+    build: 
+        context: .
+        dockerfile: Dockerfile-dev
+    restart: always
+    ports:
+      - "8000:8000"
+    volumes:
+      - /home/phytter/Documents/Projects/search_engine_server:/app/
